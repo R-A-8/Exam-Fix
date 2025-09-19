@@ -58,7 +58,7 @@ public class Employee{
      */
     private double calculatePay(){
         int hoursOfWork;
-        int taxes = 30% ;
+        double taxes = 0.30;
         double pay;
         double initialSalary;
         initialSalary = (hoursOfWork * unpaidHours) * hourlyWage;
@@ -72,6 +72,6 @@ public class Employee{
     public void paySalary(double pay){
         double pay = calculatedPay;
         System.out.println(fullname + "has received a wire transfer of " + pay + "CAD");
-        unpaidHours = 0.0;      // Question 13
+        unpaidHours = 0.0;      // Question 14
     }
 }
