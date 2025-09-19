@@ -67,14 +67,15 @@ public class Employee{
         return pay;     // Question 13
     }
 
-    public void setUnpaidHours(){
+    public void setUnpaidHours(double unpaidHours){
         this.unpaidHours = unpaidHours;
     }
     
     /*
      * Output the payment record and resets unpaid hours
      */
-    public void paySalary(double pay){
+    public void paySalary(){
+        double pay = calculatePay();
         System.out.println(fullname + " has received a wire transfer of " + pay + "CAD");
         unpaidHours = 0.0;      // Question 14
     }
