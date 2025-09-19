@@ -67,6 +67,10 @@ public class Employee{
         return pay;     // Question 13
     }
 
+    public void setUnpaidHours(){
+        this.unpaidHours = unpaidHours;
+    }
+    
     /*
      * Output the payment record and resets unpaid hours
      */
