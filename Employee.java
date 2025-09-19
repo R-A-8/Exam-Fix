@@ -71,7 +71,7 @@ public class Employee{
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(double pay){
-        System.out.println(fullname + "has received a wire transfer of " + pay + "CAD");
+        System.out.println(fullname + " has received a wire transfer of " + pay + "CAD");
         unpaidHours = 0.0;      // Question 14
     }
 }
